@@ -1,1 +1,29 @@
-REPLACE THIS FILE WITH YOUR APP Google-Services.json
+{
+  "project_info": {
+    "project_number": "678410848732",
+    "project_id": "fiberchat-7aab6",
+    "storage_bucket": "fiberchat-7aab6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678410848732:android:db0d8e3f046cbedbf2e719",
+        "android_client_info": {
+          "package_name": "com.tctech.fiberchatdemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXRTa04NkwxWSUbjWyDJ831SHuS15qypE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

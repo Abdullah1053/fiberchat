@@ -1,0 +1,1 @@
+ C:\\Users\\anna\\Desktop\\Doing\\fiberchat\\.dart_tool\\flutter_build\\8dc63e1c0886cdb7f60ef88aa2ca4442\\native_assets.yaml: 

@@ -1,0 +1,44 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 16 min SDK version: x86_64",
+    "file_": "C:\\Users\\anna\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\iris_method_channel-2.0.0-dev.4\\src\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 754316827
+  },
+  {
+    "level_": 0,
+    "message_": "JSON \u0027C:\\Users\\anna\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\iris_method_channel-2.0.0-dev.4\\android\\.cxx\\Debug\\5wt2s6qz\\x86_64\\android_gradle_build.json\u0027 was up-to-date",
+    "file_": "C:\\Users\\anna\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\iris_method_channel-2.0.0-dev.4\\src\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -450029258
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\anna\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\iris_method_channel-2.0.0-dev.4\\src\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -870202759
+  }
+]

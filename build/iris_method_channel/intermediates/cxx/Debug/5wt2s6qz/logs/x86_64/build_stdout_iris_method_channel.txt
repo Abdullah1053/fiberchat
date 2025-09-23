@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\anna\AppData\Local\Pub\Cache\hosted\pub.dev\iris_method_channel-2.0.0-dev.4\android\.cxx\Debug\5wt2s6qz\x86_64'
+[1/1] Linking CXX shared library C:\Users\anna\Desktop\Doing\fiberchat\build\iris_method_channel\intermediates\cxx\Debug\5wt2s6qz\obj\x86_64\libiris_method_channel.so
