@@ -42,7 +42,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
 import 'package:fiberchat/Configs/Enum.dart';
-import 'package:emoji_picker_flutter/emoji_picker_flutter.dart' as emojipic;
+// import 'package:emoji_picker_flutter/emoji_picker_flutter.dart' as emojipic;
 import 'package:fiberchat/Configs/Dbkeys.dart';
 import 'package:fiberchat/Configs/Dbpaths.dart';
 import 'package:fiberchat/Screens/privacypolicy&TnC/PdfViewFromCachedUrl.dart';
@@ -1235,21 +1235,21 @@ class _BroadcastChatPageState extends State<BroadcastChatPage>
               color: Colors.transparent,
             ),
           ),
-          isemojiShowing == true && keyboardVisible == false
-              ? Offstage(
-                  offstage: !isemojiShowing,
-                  child: SizedBox(
-                    height: 300,
-                    child: EmojiPicker(
-                      onEmojiSelected:
-                          (emojipic.Category? category, Emoji emoji) {
-                        _onEmojiSelected(emoji);
-                      },
-                      onBackspacePressed: _onBackspacePressed,
-                    ),
-                  ),
-                )
-              : SizedBox(),
+          // isemojiShowing == true && keyboardVisible == false
+          //     ? Offstage(
+          //         offstage: !isemojiShowing,
+          //         child: SizedBox(
+          //           height: 300,
+          //           child: EmojiPicker(
+          //             onEmojiSelected:
+          //                 (emojipic.Category? category, Emoji emoji) {
+          //               _onEmojiSelected(emoji);
+          //             },
+          //             onBackspacePressed: _onBackspacePressed,
+          //           ),
+          //         ),
+          //       )
+          SizedBox(),
         ]);
   }
 

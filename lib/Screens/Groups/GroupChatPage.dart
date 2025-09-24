@@ -53,7 +53,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
 import 'dart:async';
-import 'package:emoji_picker_flutter/emoji_picker_flutter.dart' as emojipic;
+// import 'package:emoji_picker_flutter/emoji_picker_flutter.dart' as emojipic;
 import 'dart:convert';
 import 'dart:io';
 import 'package:fiberchat/Configs/Dbkeys.dart';
@@ -1367,21 +1367,21 @@ class _GroupChatPageState extends State<GroupChatPage>
               color: Colors.transparent,
             ),
           ),
-          isemojiShowing == true && keyboardVisible == false
-              ? Offstage(
-                  offstage: !isemojiShowing,
-                  child: SizedBox(
-                    height: 300,
-                    child: EmojiPicker(
-                      onEmojiSelected:
-                          (emojipic.Category? category, Emoji emoji) {
-                        _onEmojiSelected(emoji);
-                      },
-                      onBackspacePressed: _onBackspacePressed,
-                    ),
-                  ),
-                )
-              : SizedBox(),
+          // isemojiShowing == true && keyboardVisible == false
+          //     ? Offstage(
+          //         offstage: !isemojiShowing,
+          //         child: SizedBox(
+          //           height: 300,
+          //           child: EmojiPicker(
+          //             onEmojiSelected:
+          //                 (emojipic.Category? category, Emoji emoji) {
+          //               _onEmojiSelected(emoji);
+          //             },
+          //             onBackspacePressed: _onBackspacePressed,
+          //           ),
+          //         ),
+          //       )
+               SizedBox(),
         ]);
   }
 

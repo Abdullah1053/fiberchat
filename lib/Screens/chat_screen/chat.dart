@@ -88,7 +88,7 @@ import 'package:scoped_model/scoped_model.dart';
 import 'package:flutter/services.dart';
 import 'package:encrypt/encrypt.dart' as encrypt;
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:emoji_picker_flutter/emoji_picker_flutter.dart' as emojipic;
+// import 'package:emoji_picker_flutter/emoji_picker_flutter.dart' as emojipic;
 import 'package:video_compress/video_compress.dart' as compress;
 import 'package:video_thumbnail/video_thumbnail.dart';
 import 'package:fiberchat/Configs/Enum.dart';
@@ -4601,21 +4601,21 @@ class _ChatScreenState extends State<ChatScreen> with WidgetsBindingObserver {
               color: Colors.transparent,
             ),
           ),
-          isemojiShowing == true && keyboardVisible == false
-              ? Offstage(
-                  offstage: !isemojiShowing,
-                  child: SizedBox(
-                    height: 300,
-                    child: EmojiPicker(
-                      onEmojiSelected:
-                          (emojipic.Category? category, Emoji emoji) {
-                        _onEmojiSelected(emoji);
-                      },
-                      onBackspacePressed: _onBackspacePressed,
-                    ),
-                  ),
-                )
-              : SizedBox(),
+          // isemojiShowing == true && keyboardVisible == false
+          //     ? Offstage(
+          //         offstage: !isemojiShowing,
+          //         child: SizedBox(
+          //           height: 300,
+          //           child: EmojiPicker(
+          //             onEmojiSelected:
+          //                 (emojipic.Category? category, Emoji emoji) {
+          //               _onEmojiSelected(emoji);
+          //             },
+          //             onBackspacePressed: _onBackspacePressed,
+          //           ),
+          //         ),
+          //       )
+          SizedBox(),
         ]);
   }
 
